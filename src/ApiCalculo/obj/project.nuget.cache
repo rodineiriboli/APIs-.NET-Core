@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6uP0M3L5OKfEV6e0xpYbm2UsmkymgIGcxsnIftmncnrHS1N8hL1GH6WYMcb9Q2AyLmBC6RTcFT9LMYaGhYXMKw==",
+  "success": true,
+  "projectFilePath": "C:\\C# Project\\ApiJuros\\src\\ApiCalculo\\ApiCalculo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RodineiR\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}

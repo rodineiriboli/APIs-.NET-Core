@@ -1,0 +1,8 @@
+C:\C# Project\ApiJuros\src\Calculo.Servicos\bin\Debug\netcoreapp3.1\Calculo.Servicos.deps.json
+C:\C# Project\ApiJuros\src\Calculo.Servicos\bin\Debug\netcoreapp3.1\Calculo.Servicos.dll
+C:\C# Project\ApiJuros\src\Calculo.Servicos\bin\Debug\netcoreapp3.1\Calculo.Servicos.pdb
+C:\C# Project\ApiJuros\src\Calculo.Servicos\obj\Debug\netcoreapp3.1\Calculo.Servicos.AssemblyInfoInputs.cache
+C:\C# Project\ApiJuros\src\Calculo.Servicos\obj\Debug\netcoreapp3.1\Calculo.Servicos.AssemblyInfo.cs
+C:\C# Project\ApiJuros\src\Calculo.Servicos\obj\Debug\netcoreapp3.1\Calculo.Servicos.csproj.CoreCompileInputs.cache
+C:\C# Project\ApiJuros\src\Calculo.Servicos\obj\Debug\netcoreapp3.1\Calculo.Servicos.dll
+C:\C# Project\ApiJuros\src\Calculo.Servicos\obj\Debug\netcoreapp3.1\Calculo.Servicos.pdb
