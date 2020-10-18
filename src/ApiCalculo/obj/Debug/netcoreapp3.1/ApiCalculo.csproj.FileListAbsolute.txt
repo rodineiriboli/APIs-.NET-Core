@@ -26,3 +26,7 @@ C:\C# Project\ApiJuros\src\ApiCalculo\obj\Debug\netcoreapp3.1\ApiCalculo.MvcAppl
 C:\C# Project\ApiJuros\src\ApiCalculo\obj\Debug\netcoreapp3.1\ApiCalculo.csproj.CopyComplete
 C:\C# Project\ApiJuros\src\ApiCalculo\bin\Debug\netcoreapp3.1\ApiCalculo.xml
 C:\C# Project\ApiJuros\src\ApiCalculo\obj\Debug\netcoreapp3.1\ApiCalculo.xml
+C:\C# Project\ApiJuros\src\ApiCalculo\bin\Debug\netcoreapp3.1\Calculo.Dominio.dll
+C:\C# Project\ApiJuros\src\ApiCalculo\bin\Debug\netcoreapp3.1\Calculo.Servicos.dll
+C:\C# Project\ApiJuros\src\ApiCalculo\bin\Debug\netcoreapp3.1\Calculo.Servicos.pdb
+C:\C# Project\ApiJuros\src\ApiCalculo\bin\Debug\netcoreapp3.1\Calculo.Dominio.pdb

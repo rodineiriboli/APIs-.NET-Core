@@ -12,9 +12,10 @@ namespace ApiCalculo.Controllers
     [ApiController]
     public class CalculoController : ControllerBase
     {
+        [Route("/calculajuros")]
         public IActionResult CalculaJuros([FromServices] ICalculoServicos calculoServicos)
         {
-            return Ok();
+            return Ok(calculoServicos.CalculaJuros(100,0.01,5));
         }
     }
 }

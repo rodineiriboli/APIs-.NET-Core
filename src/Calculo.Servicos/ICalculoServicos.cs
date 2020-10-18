@@ -2,6 +2,6 @@
 {
     public interface ICalculoServicos
     {
-        public double CalculaJuros();
+        public decimal CalculaJuros(decimal valorInicial, double juros, int tempo);
     }
 }

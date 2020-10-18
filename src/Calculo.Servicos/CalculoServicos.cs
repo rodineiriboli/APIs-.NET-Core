@@ -1,12 +1,10 @@
-﻿using System;
-
-namespace Calculo.Servicos
+﻿namespace Calculo.Servicos
 {
     public class CalculoServicos : ICalculoServicos
     {
-        public double CalculaJuros()
+        public decimal CalculaJuros(decimal valorInicial, double juros, int tempo)
         {
-            throw new NotImplementedException();
+            return new Calculo.Dominio.Calculo().CalculaJuros(valorInicial, juros, tempo);
         }
     }
 }

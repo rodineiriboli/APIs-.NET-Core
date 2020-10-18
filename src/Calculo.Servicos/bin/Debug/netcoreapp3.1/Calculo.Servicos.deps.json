@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "Calculo.Servicos/1.0.0": {
+        "dependencies": {
+          "Calculo.Dominio": "1.0.0"
+        },
         "runtime": {
           "Calculo.Servicos.dll": {}
+        }
+      },
+      "Calculo.Dominio/1.0.0": {
+        "runtime": {
+          "Calculo.Dominio.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Calculo.Servicos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Calculo.Dominio/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

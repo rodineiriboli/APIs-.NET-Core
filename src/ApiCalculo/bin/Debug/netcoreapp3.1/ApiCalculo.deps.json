@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v3.1": {
       "ApiCalculo/1.0.0": {
         "dependencies": {
+          "Calculo.Servicos": "1.0.0",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.9",
           "Swashbuckle.AspNetCore": "5.6.3",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
@@ -374,6 +375,25 @@
         },
         "compile": {
           "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
+        }
+      },
+      "Calculo.Dominio/1.0.0": {
+        "runtime": {
+          "Calculo.Dominio.dll": {}
+        },
+        "compile": {
+          "Calculo.Dominio.dll": {}
+        }
+      },
+      "Calculo.Servicos/1.0.0": {
+        "dependencies": {
+          "Calculo.Dominio": "1.0.0"
+        },
+        "runtime": {
+          "Calculo.Servicos.dll": {}
+        },
+        "compile": {
+          "Calculo.Servicos.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -2124,6 +2144,16 @@
       "sha512": "sha512-BPvcPxQRMsYZ3HnYmGKRWDwX4Wo29WHh14Q6B10BB8Yfbbcza+agOC2UrBFA1EuaZuOsFLbp6E2+mqVNF/Je8A==",
       "path": "swashbuckle.aspnetcore.swaggerui/5.6.3",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+    },
+    "Calculo.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Calculo.Servicos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
       "type": "referenceassembly",
