@@ -6,3 +6,4 @@ C:\C# Project\ApiJuros\src\Calculo.Dominio\obj\Debug\netcoreapp3.1\Calculo.Domin
 C:\C# Project\ApiJuros\src\Calculo.Dominio\obj\Debug\netcoreapp3.1\Calculo.Dominio.csproj.CoreCompileInputs.cache
 C:\C# Project\ApiJuros\src\Calculo.Dominio\obj\Debug\netcoreapp3.1\Calculo.Dominio.dll
 C:\C# Project\ApiJuros\src\Calculo.Dominio\obj\Debug\netcoreapp3.1\Calculo.Dominio.pdb
+C:\C# Project\ApiJuros\src\Calculo.Dominio\obj\Debug\netcoreapp3.1\Calculo.Dominio.csprojAssemblyReference.cache

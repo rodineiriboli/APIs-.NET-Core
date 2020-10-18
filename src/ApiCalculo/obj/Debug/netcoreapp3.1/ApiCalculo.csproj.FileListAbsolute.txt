@@ -24,3 +24,5 @@ C:\C# Project\ApiJuros\src\ApiCalculo\obj\Debug\netcoreapp3.1\ApiCalculo.csproj.
 C:\C# Project\ApiJuros\src\ApiCalculo\obj\Debug\netcoreapp3.1\ApiCalculo.MvcApplicationPartsAssemblyInfo.cs
 C:\C# Project\ApiJuros\src\ApiCalculo\obj\Debug\netcoreapp3.1\ApiCalculo.MvcApplicationPartsAssemblyInfo.cache
 C:\C# Project\ApiJuros\src\ApiCalculo\obj\Debug\netcoreapp3.1\ApiCalculo.csproj.CopyComplete
+C:\C# Project\ApiJuros\src\ApiCalculo\bin\Debug\netcoreapp3.1\ApiCalculo.xml
+C:\C# Project\ApiJuros\src\ApiCalculo\obj\Debug\netcoreapp3.1\ApiCalculo.xml

@@ -82,6 +82,29 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Calculo.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Calculo.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Calculo.Dominio.dll": {}
+        }
+      },
+      "Calculo.Servicos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Calculo.Dominio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Calculo.Servicos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Calculo.Servicos.dll": {}
+        }
       }
     }
   },
@@ -256,10 +279,21 @@
         "swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Calculo.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../Calculo.Dominio/Calculo.Dominio.csproj",
+      "msbuildProject": "../Calculo.Dominio/Calculo.Dominio.csproj"
+    },
+    "Calculo.Servicos/1.0.0": {
+      "type": "project",
+      "path": "../Calculo.Servicos/Calculo.Servicos.csproj",
+      "msbuildProject": "../Calculo.Servicos/Calculo.Servicos.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Calculo.Servicos >= 1.0.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.9",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
@@ -289,7 +323,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\C# Project\\ApiJuros\\src\\Calculo.Servicos\\Calculo.Servicos.csproj": {
+              "projectPath": "C:\\C# Project\\ApiJuros\\src\\Calculo.Servicos\\Calculo.Servicos.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
