@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "BaseJuros.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/BaseJuros.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BaseJuros.Dominio.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "BaseJuros.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../BaseJuros.Dominio/BaseJuros.Dominio.csproj",
+      "msbuildProject": "../BaseJuros.Dominio/BaseJuros.Dominio.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "BaseJuros.Dominio >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\RodineiR\\.nuget\\packages\\": {}
@@ -32,7 +51,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\C# Project\\ApiJuros\\src\\BaseJuros.Dominio\\BaseJuros.Dominio.csproj": {
+              "projectPath": "C:\\C# Project\\ApiJuros\\src\\BaseJuros.Dominio\\BaseJuros.Dominio.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

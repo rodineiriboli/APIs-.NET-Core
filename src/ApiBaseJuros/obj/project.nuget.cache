@@ -1,10 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "1lzDdb672jgUrUjgi3YITZ9DL4P7zYIs+d9dxQeLCwYMJMr+CG1jZtt4yFEHlQD1MCYFCkiSGCl/S8VXuxIghg==",
+  "dgSpecHash": "8pjhqkdz9NOHs0QZE53+CEUibgUeWTs7NaDtbFJQOYatPGFL/R3kMW00bFY/oRcNtIh0OSnLWPeyRhi5pvRynw==",
   "success": true,
   "projectFilePath": "C:\\C# Project\\ApiJuros\\src\\ApiBaseJuros\\ApiBaseJuros.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\RodineiR\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+    "C:\\Users\\RodineiR\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\RodineiR\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\RodineiR\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
+    "C:\\Users\\RodineiR\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\RodineiR\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\RodineiR\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\RodineiR\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
   ],
   "logs": []
 }
