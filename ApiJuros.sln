@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculo.Servicos", "src\Cal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculo.Testes", "Calculo.Testes\Calculo.Testes.csproj", "{0D3D6A26-36E8-4D24-B4B5-779520ACB139}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseJuros.Testes", "BaseJuros.Testes\BaseJuros.Testes.csproj", "{4DCA46B2-B664-4983-85FF-115D2D8FFB96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{0D3D6A26-36E8-4D24-B4B5-779520ACB139}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D3D6A26-36E8-4D24-B4B5-779520ACB139}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D3D6A26-36E8-4D24-B4B5-779520ACB139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DCA46B2-B664-4983-85FF-115D2D8FFB96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DCA46B2-B664-4983-85FF-115D2D8FFB96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DCA46B2-B664-4983-85FF-115D2D8FFB96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DCA46B2-B664-4983-85FF-115D2D8FFB96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

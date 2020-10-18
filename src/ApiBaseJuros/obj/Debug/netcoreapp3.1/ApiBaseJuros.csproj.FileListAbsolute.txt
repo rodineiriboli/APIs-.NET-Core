@@ -24,9 +24,13 @@ C:\C# Project\ApiJuros\src\ApiBaseJuros\bin\Debug\netcoreapp3.1\Microsoft.OpenAp
 C:\C# Project\ApiJuros\src\ApiBaseJuros\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\C# Project\ApiJuros\src\ApiBaseJuros\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\C# Project\ApiJuros\src\ApiBaseJuros\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\C# Project\ApiJuros\src\ApiBaseJuros\obj\Debug\netcoreapp3.1\ApiBaseJuros.csproj.CoreCompileInputs.cache
-C:\C# Project\ApiJuros\src\ApiBaseJuros\obj\Debug\netcoreapp3.1\ApiBaseJuros.MvcApplicationPartsAssemblyInfo.cs
-C:\C# Project\ApiJuros\src\ApiBaseJuros\obj\Debug\netcoreapp3.1\ApiBaseJuros.MvcApplicationPartsAssemblyInfo.cache
 C:\C# Project\ApiJuros\src\ApiBaseJuros\obj\Debug\netcoreapp3.1\ApiBaseJuros.xml
 C:\C# Project\ApiJuros\src\ApiBaseJuros\bin\Debug\netcoreapp3.1\BaseJuros.Dominio.dll
 C:\C# Project\ApiJuros\src\ApiBaseJuros\bin\Debug\netcoreapp3.1\BaseJuros.Dominio.pdb
+C:\C# Project\ApiJuros\src\ApiBaseJuros\bin\Debug\netcoreapp3.1\xunit.abstractions.dll
+C:\C# Project\ApiJuros\src\ApiBaseJuros\bin\Debug\netcoreapp3.1\xunit.assert.dll
+C:\C# Project\ApiJuros\src\ApiBaseJuros\bin\Debug\netcoreapp3.1\xunit.core.dll
+C:\C# Project\ApiJuros\src\ApiBaseJuros\bin\Debug\netcoreapp3.1\xunit.execution.dotnet.dll
+C:\C# Project\ApiJuros\src\ApiBaseJuros\obj\Debug\netcoreapp3.1\ApiBaseJuros.csproj.CoreCompileInputs.cache
+C:\C# Project\ApiJuros\src\ApiBaseJuros\obj\Debug\netcoreapp3.1\ApiBaseJuros.MvcApplicationPartsAssemblyInfo.cs
+C:\C# Project\ApiJuros\src\ApiBaseJuros\obj\Debug\netcoreapp3.1\ApiBaseJuros.MvcApplicationPartsAssemblyInfo.cache
