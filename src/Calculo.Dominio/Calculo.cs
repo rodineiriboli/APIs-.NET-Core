@@ -18,9 +18,6 @@ namespace Calculo.Dominio
         {
             var resultadoOp = Math.Pow((1 + juros), Convert.ToDouble(tempo));
             var valorFinal = decimal.Multiply(valorInicial, (Convert.ToDecimal(resultadoOp)));
-
-            //Math.Truncate(100 * valorFinal) / 100
-
             return Math.Truncate(100 * valorFinal) / 100;
         }
 

@@ -23,7 +23,7 @@ namespace ApiCalculo.Controllers
         /// <response code="200">Valor do juros calculado obtido com sucesso.</response>
         /// <response code="404">Pagina não encontrada, verique os tipo de dados dos parâmetros.</response>
         [ProducesResponseType(typeof(List<Calculo.Dominio.Calculo>), 200)]
-        [HttpGet("{valorInicial:decimal}/{tempo:int}")]
+        [HttpGet]
         [Route("/calculajuros")]
         public IActionResult CalculaJuros([FromServices] ICalculoServicos calculoServicos, decimal valorInicial, int tempo)
         {

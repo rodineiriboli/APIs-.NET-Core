@@ -1,22 +1,14 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
-using System.Text.Json.Serialization;
 using System.Threading.Tasks;
-using Newtonsoft.Json;
 
 namespace Calculo.Servicos
 {
     public class CalculoServicos : ICalculoServicos
     {
-        HttpClient httpClient = new HttpClient();
-        public CalculoServicos()
-        {
-            httpClient.BaseAddress = new Uri("http:localhost:32779");
-            httpClient.DefaultRequestHeaders.Accept.Add(
-                new MediaTypeWithQualityHeaderValue("application/json"));
-        }
         public decimal CalculaJuros(decimal valorInicial, double juros, int tempo)
         {
             return new Dominio.Calculo().CalculaJuros(valorInicial, juros, tempo);
@@ -24,6 +16,12 @@ namespace Calculo.Servicos
 
         public async Task<List<Dominio.Calculo>> ConsultaApiBaseJuros()
         {
+            HttpClient httpClient = new HttpClient();
+
+            httpClient.BaseAddress = new Uri("http:localhost:32779");
+            httpClient.DefaultRequestHeaders.Accept.Add(
+                new MediaTypeWithQualityHeaderValue("application/json"));
+
             var resposta = await httpClient.GetAsync("/taxaJuros");
             if (resposta.IsSuccessStatusCode)
             {
