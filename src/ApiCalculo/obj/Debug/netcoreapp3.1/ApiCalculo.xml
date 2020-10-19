@@ -15,5 +15,11 @@
             <response code="200">Valor do juros calculado obtido com sucesso.</response>
             <response code="404">Pagina não encontrada, verique os tipo de dados dos parâmetros.</response>
         </member>
+        <member name="M:ApiCalculo.Controllers.CalculoController.ShowmeTheCode">
+            <summary>
+            Retorna endereço Git onde se encontra a aplicação.
+            </summary>
+            <returns></returns>
+        </member>
     </members>
 </doc>

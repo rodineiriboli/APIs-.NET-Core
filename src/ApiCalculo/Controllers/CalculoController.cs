@@ -30,5 +30,16 @@ namespace ApiCalculo.Controllers
             var juros = calculoServicos.ObtemJurosApiBaseJuros();
             return Ok(calculoServicos.CalculaJuros(valorInicial, juros, tempo));
         }
+
+        /// <summary>
+        /// Retorna endereço Git onde se encontra a aplicação.
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        [Route("/showmethecode")]
+        public IActionResult ShowmeTheCode()
+        {
+            return Ok("https://github.com/rodineiriboli/APIs-.NET-Core");
+        }
     }
 }

@@ -8,6 +8,7 @@ namespace Calculo.Dominio
         [Required(AllowEmptyStrings = false, ErrorMessage = "É necessário informar um valor inicial.")]
         public decimal ValorInicial { get; set; }
 
+
         public double Juros { get; set; }
 
         [Required(AllowEmptyStrings = false, ErrorMessage = "Informe o mês.")]
