@@ -1,8 +1,0 @@
-C:\C# Project\ApiJuros\src\BaseJuros.Dominio\bin\Debug\netcoreapp3.1\BaseJuros.Dominio.deps.json
-C:\C# Project\ApiJuros\src\BaseJuros.Dominio\bin\Debug\netcoreapp3.1\BaseJuros.Dominio.dll
-C:\C# Project\ApiJuros\src\BaseJuros.Dominio\bin\Debug\netcoreapp3.1\BaseJuros.Dominio.pdb
-C:\C# Project\ApiJuros\src\BaseJuros.Dominio\obj\Debug\netcoreapp3.1\BaseJuros.Dominio.AssemblyInfoInputs.cache
-C:\C# Project\ApiJuros\src\BaseJuros.Dominio\obj\Debug\netcoreapp3.1\BaseJuros.Dominio.AssemblyInfo.cs
-C:\C# Project\ApiJuros\src\BaseJuros.Dominio\obj\Debug\netcoreapp3.1\BaseJuros.Dominio.csproj.CoreCompileInputs.cache
-C:\C# Project\ApiJuros\src\BaseJuros.Dominio\obj\Debug\netcoreapp3.1\BaseJuros.Dominio.dll
-C:\C# Project\ApiJuros\src\BaseJuros.Dominio\obj\Debug\netcoreapp3.1\BaseJuros.Dominio.pdb
