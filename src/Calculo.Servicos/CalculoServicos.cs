@@ -18,9 +18,9 @@ namespace Calculo.Servicos
         {
             HttpClient httpClient = new HttpClient();
 
-            httpClient.BaseAddress = new Uri("http:localhost:32779");
-            httpClient.DefaultRequestHeaders.Accept.Add(
-                new MediaTypeWithQualityHeaderValue("application/json"));
+            httpClient.BaseAddress = new Uri("http://localhost:5005");
+            //httpClient.DefaultRequestHeaders.Accept.Add(
+            //    new MediaTypeWithQualityHeaderValue("application/json"));
 
             var resposta = await httpClient.GetAsync("/taxaJuros");
             if (resposta.IsSuccessStatusCode)
@@ -33,7 +33,7 @@ namespace Calculo.Servicos
 
         public double ObtemJurosApiBaseJuros()
         {
-            double j = 0;
+            double j = 5;
             var consulta = ConsultaApiBaseJuros();
             consulta.ContinueWith(task =>
             {

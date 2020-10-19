@@ -63,7 +63,7 @@ namespace ApiCalculo
 
             app.UseSwaggerUI(c =>
             {
-                c.RoutePrefix = "swagger-Api-2";
+                c.RoutePrefix = string.Empty;
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
             });
         }

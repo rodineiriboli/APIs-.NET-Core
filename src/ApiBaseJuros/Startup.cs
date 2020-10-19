@@ -58,7 +58,7 @@ namespace ApiBaseJuros
 
             app.UseSwaggerUI(c =>
             {
-                c.RoutePrefix = "swagger-Api-1";
+                c.RoutePrefix = string.Empty;
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
             });
         }
