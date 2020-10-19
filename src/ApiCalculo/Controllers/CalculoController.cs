@@ -10,12 +10,25 @@ namespace ApiCalculo.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+
     public class CalculoController : ControllerBase
     {
+        /// <summary>
+        /// Retorna o cálculo de juros.
+        /// </summary>
+        /// <param name="calculoServicos"></param>
+        /// <param name="valorInicial"></param>
+        /// <param name="tempo"></param>
+        /// <returns></returns>
+        /// <response code="200">Valor do juros calculado obtido com sucesso.</response>
+        /// <response code="404">Pagina não encontrada, verique os tipo de dados dos parâmetros.</response>
+        [ProducesResponseType(typeof(List<Calculo.Dominio.Calculo>), 200)]
+        [HttpGet("{valorInicial:decimal}/{tempo:int}")]
         [Route("/calculajuros")]
-        public IActionResult CalculaJuros([FromServices] ICalculoServicos calculoServicos)
+        public IActionResult CalculaJuros([FromServices] ICalculoServicos calculoServicos, decimal valorInicial, int tempo)
         {
-            return Ok(calculoServicos.CalculaJuros(100,0.01,5));
+            var juros = calculoServicos.ObtemJurosApiBaseJuros();
+            return Ok(calculoServicos.CalculaJuros(valorInicial, juros, tempo));
         }
     }
 }

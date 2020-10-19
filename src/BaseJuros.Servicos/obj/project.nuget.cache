@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tgsTewr+/t2PKsMQ44ZSz224r9r36qvVh12DWNTNg2w66tKFVQ9644O0d1hbf1yGozj52b7To/8U9m8q9JpTlg==",
+  "dgSpecHash": "Fs+sCEbQFgfN4N3rk1RG9ISpj/FOB+Y4T4ZE9zw1qQQQjzl7VH3naUUaSPODHqemfuMTEt+VkBOr3pIz4eXS5Q==",
   "success": true,
   "projectFilePath": "C:\\C# Project\\ApiJuros\\src\\BaseJuros.Servicos\\BaseJuros.Servicos.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\RodineiR\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "2Xm9kyJL4vbSl6OZYVIkpnoVIu8Q8mH3Lqf1iyJUJ4jPzTdKqa0OlFojhUduRc1rF9/s/OIt6mskzu0ut6DadQ==",
+  "dgSpecHash": "HjlQc/m7+uV8Sh1xtDtHOdl3gmSjQlEJ7C5EcywZoI4oABMVSGON5g+rB+XQyYR4+p/d1NRb3JWbRLxUk5CYvw==",
   "success": true,
   "projectFilePath": "C:\\C# Project\\ApiJuros\\src\\Calculo.Dominio\\Calculo.Dominio.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\RodineiR\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
