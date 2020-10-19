@@ -28,7 +28,7 @@ namespace ApiCalculo.Controllers
         public IActionResult CalculaJuros([FromServices] ICalculoServicos calculoServicos, decimal valorInicial, int tempo)
         {
             var juros = calculoServicos.ObtemJurosApiBaseJuros();
-            return Ok(calculoServicos.CalculaJuros(valorInicial, juros, tempo));
+            return Ok(new {calculoJuros = calculoServicos.CalculaJuros(valorInicial, juros, tempo) });
         }
 
         /// <summary>
@@ -39,7 +39,7 @@ namespace ApiCalculo.Controllers
         [Route("/showmethecode")]
         public IActionResult ShowmeTheCode()
         {
-            return Ok("https://github.com/rodineiriboli/APIs-.NET-Core");
+            return Ok(new { showmethecode = "https://github.com/rodineiriboli/APIs-.NET-Core" });
         }
     }
 }
