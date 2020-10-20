@@ -11,6 +11,19 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "BaseJuros.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/BaseJuros.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BaseJuros.Dominio.dll": {}
+        }
+      },
       "Calculo.Dominio/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -58,6 +71,11 @@
         "packageIcon.png"
       ]
     },
+    "BaseJuros.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../BaseJuros.Dominio/BaseJuros.Dominio.csproj",
+      "msbuildProject": "../BaseJuros.Dominio/BaseJuros.Dominio.csproj"
+    },
     "Calculo.Dominio/1.0.0": {
       "type": "project",
       "path": "../Calculo.Dominio/Calculo.Dominio.csproj",
@@ -66,6 +84,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "BaseJuros.Dominio >= 1.0.0",
       "Calculo.Dominio >= 1.0.0",
       "Newtonsoft.Json >= 12.0.3"
     ]
@@ -96,6 +115,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+            "C:\\C# Project\\ApiJuros\\src\\BaseJuros.Dominio\\BaseJuros.Dominio.csproj": {
+              "projectPath": "C:\\C# Project\\ApiJuros\\src\\BaseJuros.Dominio\\BaseJuros.Dominio.csproj"
+            },
             "C:\\C# Project\\ApiJuros\\src\\Calculo.Dominio\\Calculo.Dominio.csproj": {
               "projectPath": "C:\\C# Project\\ApiJuros\\src\\Calculo.Dominio\\Calculo.Dominio.csproj"
             }
