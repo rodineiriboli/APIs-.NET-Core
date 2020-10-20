@@ -24,5 +24,5 @@ Para rodar este projeto você precisa seguir os seguintes passos:
 ```sh
 $ docker-compose up
 ```
-Aguarde o build, em seguida deverá ser possivel visualizar as apis: http://localhost/swagger-Api-1
-e http://localhost/swagger-Api-2
+Aguarde o build, em seguida deverá ser possivel visualizar as apis: http://localhost/5005
+e http://localhost/5006
