@@ -10,6 +10,7 @@ OBS: Apenas para fim de avalição.
 # Features!
 
   - .Net core api
+  - Docker
   - Swagger
 
 # Requirements
